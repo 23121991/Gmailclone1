@@ -25,9 +25,9 @@ function Main() {
       <div className='app_body'>
         <Sidebar/>
      
-        
+        <EmailList/>
        <Routes>
-       <Route path="/emaillist" element={<EmailList/>}/>
+      
        <Route path="/mail" element={<Mail/>}/>
       </Routes>
         
