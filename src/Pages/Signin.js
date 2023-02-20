@@ -19,7 +19,7 @@ const Signin = (props) => {
   // };
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await axios.post('https://gmailbackend.onrender.com',{...formDetails});
+    const response = await axios.post('https://gmailbackend.onrender.com/api/signin',{...formDetails});
     if(response){
       localStorage.setItem("token",response);
       navigate("*landing")
