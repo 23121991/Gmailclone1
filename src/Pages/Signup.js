@@ -105,7 +105,7 @@ export default function Signup() {
               onChange={handleInput}
               value={formDetails["password"] || "" }
               margin='normal'
-              type='text'
+              type='password'
               variant='outlined'
               placeholder='password' />
 
